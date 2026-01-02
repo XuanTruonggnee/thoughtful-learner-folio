@@ -56,6 +56,7 @@ export default function Projects() {
               chapterNumber={1}
               title="Thao tác cơ bản với tệp tin và thư mục"
               description="Thiết kế cấu trúc thư mục học tập logic, quy tắc đặt tên tệp tin rõ ràng và nhất quán."
+              assignmentFileUrl="/files/Bai_1.docx"
               sections={[
                 {
                   title: "🎯 Mục tiêu bài tập",
@@ -178,6 +179,7 @@ export default function Projects() {
               chapterNumber={2}
               title="Tìm kiếm và đánh giá thông tin học thuật"
               description="Nghiên cứu chủ đề 'Tác động của chính sách nới lỏng tiền tệ' với 12 nguồn tài liệu học thuật."
+              assignmentFileUrl="/files/Bai_2.docx"
               sections={[
                 {
                   title: "🎯 Mục tiêu bài tập",
@@ -335,6 +337,7 @@ export default function Projects() {
               chapterNumber={3}
               title="Viết prompt hiệu quả cho học tập"
               description="So sánh các cấp độ prompt từ cơ bản đến nâng cao với 3 tác vụ học tập khác nhau."
+              assignmentFileUrl="/files/Bai_3.docx"
               sections={[
                 {
                   title: "🎯 Mục tiêu bài tập",
@@ -439,6 +442,7 @@ export default function Projects() {
               chapterNumber={4}
               title="Hợp tác trực tuyến cho dự án nhóm"
               description="Dự án nhóm 'Tác động của thị trường AI đến người lao động' với Trello, Google Docs và Zoom."
+              assignmentFileUrl="/files/Bai_4.docx"
               sections={[
                 {
                   title: "🎯 Mục tiêu bài tập",
@@ -565,6 +569,7 @@ export default function Projects() {
               chapterNumber={5}
               title="Sáng tạo nội dung số với AI"
               description="Bài thuyết trình 'Ứng dụng AI trong học tập' với 8 slides được thiết kế chuyên nghiệp."
+              assignmentFileUrl="/files/Bai_5.docx"
               sections={[
                 {
                   title: "🎯 Mục tiêu bài tập",
@@ -732,6 +737,7 @@ export default function Projects() {
               chapterNumber={6}
               title="Sử dụng AI có trách nhiệm"
               description="Nghiên cứu chính sách AI của VNU/UEB và xây dựng bộ nguyên tắc cá nhân sử dụng AI."
+              assignmentFileUrl="/files/Bai_6.docx"
               sections={[
                 {
                   title: "🎯 Mục tiêu bài tập",

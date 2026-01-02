@@ -10,6 +10,7 @@ export default function AboutMe() {
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
+            <div className="chapter-badge mb-4">Vũ Văn Điềm</div>
             <h1 className="mb-6 text-balance">
               Portfolio Học Tập Số
             </h1>

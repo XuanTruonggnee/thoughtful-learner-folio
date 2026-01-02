@@ -1,4 +1,4 @@
-import { ChevronDown } from "lucide-react";
+import { ChevronDown, FileDown } from "lucide-react";
 import { useState } from "react";
 import { cn } from "@/lib/utils";
 
@@ -12,13 +12,29 @@ interface ProjectCardProps {
   title: string;
   description: string;
   sections: ProjectSection[];
+  assignmentFileUrl?: string;
 }
 
-export function ProjectCard({ chapterNumber, title, description, sections }: ProjectCardProps) {
+export function ProjectCard({ chapterNumber, title, description, sections, assignmentFileUrl }: ProjectCardProps) {
   const [isExpanded, setIsExpanded] = useState(false);
 
   return (
     <div className="academic-card" id={`bai-${chapterNumber}`}>
+      {/* File download link */}
+      {assignmentFileUrl && (
+        <div className="mb-4 pb-4 border-b border-border">
+          <a 
+            href={assignmentFileUrl} 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-sm text-primary hover:underline"
+          >
+            <FileDown className="h-4 w-4" />
+            Tải file bài tập gốc (Bài {chapterNumber})
+          </a>
+        </div>
+      )}
+
       {/* Header - always visible */}
       <button
         onClick={() => setIsExpanded(!isExpanded)}
